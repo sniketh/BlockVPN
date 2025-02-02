@@ -1,16 +1,18 @@
-[Adblock Plus]
-! Title: HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass DNS Blocklist
-! Description: Prevent methods to bypass your DNS, blocks encrypted DNS, VPN, TOR, Proxies.
-! Note: To ensure the bootstrap is your DNS server: Redirect standard DNS outbound (UDP 53) to an internal server. Block all DoT/DoQ (TCP/UDP 853) outbound.
-! Homepage: https://github.com/hagezi/dns-blocklists
-! License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
-! Issues: https://github.com/hagezi/dns-blocklists/issues
-! Expires: 1 day
-! Last modified: 02 Feb 2025 03:19 UTC
-! Version: 2025.0202.0319.25
-! Syntax: AdBlock
-! Number of entries: 3753
-!
+# Title: HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass DNS Blocklist
+# Converted by sniketh
+# sed 's/^||//g' input.txt | sed 's/\^$//g' > output.txt
+# Description: Prevent methods to bypass your DNS, blocks encrypted DNS, VPN, TOR, Proxies.
+# Note: To ensure the bootstrap is your DNS server: Redirect standard DNS outbound (UDP 53) to an internal server. Block all DoT/DoQ (TCP/UDP 853) outbound.
+# Homepage: https://github.com/hagezi/dns-blocklists
+# License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
+# Issues: https://github.com/hagezi/dns-blocklists/issues
+# Expires: 1 day
+# Last modified: 02 Feb 2025 03:19 UTC
+# Version: 2025.0202.0319.25
+# Syntax: AdBlock
+# Number of entries: 3753
+#
+
 003153.xyz
 ns.00dani.me
 0ms.dev
